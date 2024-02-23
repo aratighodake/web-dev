@@ -1,0 +1,64 @@
+.btnsearch
+{
+    height: 40px;
+    width: 40px;
+    margin-left: -40px;
+}
+a:link,a:active,a:visited
+{
+    text-decoration: none;
+    color: black;
+}
+a:link:hover{
+    color: orange;
+}
+
+.hide
+{
+    display: none;
+}
+.a1:hover >.hide
+{
+display: block;
+}
+
+.img1:hover> .hide
+{
+    display: block;
+}
+
+.deal
+{
+    background-image: url(./Images/blog-6_02d68299-7a7d-4597-87ff-057bdbf9928d_600x400_crop_center.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.deal1
+{
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+}
+.quotes
+{
+    height:50px ;
+    width: 50px;
+    border-radius: 50%;
+    outline: 1px solid orange;
+    outline-offset: 4px;
+    text-align: center;
+}
+.features
+{
+    height:80px ;
+    width: 80px;
+    border-radius: 50%;
+    outline: 1px solid orange;
+    outline-offset: 8px;
+    text-align: center;
+    background-color: orange;
+    color: white;
+}
